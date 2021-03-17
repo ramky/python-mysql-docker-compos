@@ -17,4 +17,4 @@ services:
       ]
 
   customsql:
-    image: ramky/msyql1:latest
+    image: msyql1:latest

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t ramky/mysql1 .
+docker build -t mysql1 .
