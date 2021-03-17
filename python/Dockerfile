@@ -4,4 +4,4 @@ WORKDIR /usr/src/app
 RUN pip install mysql-connector-python-rf
 COPY . .
 RUN apt-get update
-RUN DEBIAN_FRONTEND=noninteractive apt-get -y install mysql-client
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install default-mysql-client
