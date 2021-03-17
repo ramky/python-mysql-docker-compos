@@ -17,4 +17,4 @@ services:
       ]
 
   customsql:
-    image: msyql1:latest
+    image: mysql1:latest
