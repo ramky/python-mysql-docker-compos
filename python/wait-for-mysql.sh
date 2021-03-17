@@ -6,7 +6,7 @@ set -x
 host="$1"
 cmd="$@"
 
-until mysql -h "$host" -u root -padmin123 sys -e 'select 1'; do
+until mysql -h "localhost" -u root -padmin123 sys -e 'select 1'; do
   >&2 echo "MySQL is unvailable - sleeping"
   sleep 2
 done
